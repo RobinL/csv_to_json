@@ -33,7 +33,7 @@
 
 
     d3.select("#fileupload").on("change", upload)
-    d3.select("#copy").on("click", function(d){
+    d3.select("#copy_button").on("click", function(d){
         copyTextarea = document.querySelector("#output");
         copyTextarea.select();
         document.execCommand('copy') 
